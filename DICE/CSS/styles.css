@@ -1,0 +1,26 @@
+.mainheading{
+  margin 5% auto;
+  font-size: 5rem;
+  color: #B8FFA1;
+font-family: 'Varela Round', sans-serif;
+text-align: center;
+text-shadow: 5px 5px #3A662C;
+
+}
+.container-fluid{
+  background-color: #B35FA7;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+}
+.player{
+  font-weight: bold;
+  text-align: center;
+    margin: 5% 2%;
+  font-size: 2rem;
+font-family: 'Varela Round', sans-serif;
+text-shadow: 1px 1px #66225C;
+
+  display: inline-block;
+}
