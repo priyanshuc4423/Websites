@@ -1,0 +1,31 @@
+.contanier {
+  height: 500px;
+  width: 300px;
+  background-color: aqua;
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  font-size: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.semicolon {
+  text-align: center;
+  margin-top: 8rem;
+  font-size: 3rem;
+  color: #000;
+}
+
+.box {
+  text-align: center;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  font-size: 2rem;
+}
