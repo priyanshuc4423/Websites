@@ -1,31 +1,55 @@
 .contanier {
   height: 500px;
-  width: 300px;
   background-color: aqua;
   color: #000;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* display: grid;
+  grid-template-rows: 30%; */
+}
+
+.label-container {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.box-container {
+  height: 10rem;
   display: flex;
   justify-content: center;
 }
 
 .label {
-  font-size: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 .semicolon {
-  text-align: center;
-  margin-top: 8rem;
   font-size: 3rem;
   color: #000;
 }
 
 .box {
-  text-align: center;
-  margin-top: 8rem;
-  display: flex;
-  justify-content: center;
-  height: 3rem;
   font-size: 2rem;
+  padding: 1rem;
+}
+
+button {
+  width: 5rem;
+  height: 3rem;
+  background-color: #000;
+  color: white;
+  margin-left: 10rem;
+}
+
+#start {
+  margin-left: 40%;
+  margin-right: 0;
+  margin-top: 2%;
+}
+
+#reset {
+  margin-top: 2%;
+  margin-left: 50%;
 }
