@@ -10,14 +10,20 @@
 <body>
     <div class="contanier">
         
-          
-        <p id='hour-label' class="label">Hours</p><p id='minute-label' class="label">minute</p><p id='second-label' class="label">Second</p> ]
+          <div class= "label-container">
+        <p id='hour-label' class="label">Hours</p><p id='minute-label' class="label">minute</p><p id='second-label' class="label">Second</p> </div>
         
 
-       
-     <input type="number" size="3rem" class="box" id="hour" max="99" min="0" value="0"><p class="semicolon" id="p1" >:</p><input type="number" size="3rem" class="box" id="minute" max="60" min="0" value="0"><p class="semicolon" id="p1" >:</p><input type="number" size="3rem" class="box"  id="Second" max="60" min="0" value="0">
+       <div class="box-container">
+     <input type="number" size="2rem" class="box" id="hour" max="99" min="0" value="0"><p class="semicolon" id="p1" >:</p><input type="number" size="2rem" class="box" id="minute" max="60" min="0" value="0"><p class="semicolon" id="p1" >:</p><input type="number" size="2rem" class="box"  id="Second" max="60" min="0" value="0"></div>
+
+     <button  id = 'start'>Start</button>
+     <button id = 'reset'>RESET</button>
    
     </div>
+
+ 
+    <script src="index.js"></script>
     
 </body>
 </html>
