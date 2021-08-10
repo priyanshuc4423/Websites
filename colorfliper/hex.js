@@ -11,7 +11,8 @@ let code = document.getElementById("colorcode")
 button.addEventListener("click",function(){
     hex = '#';
     for(let i =0;i<6;i++){
-        hex += getcode()
+        let number = getcode(); 
+        hex += value[number];
     }
 
     document.body.style.backgroundColor = hex;
